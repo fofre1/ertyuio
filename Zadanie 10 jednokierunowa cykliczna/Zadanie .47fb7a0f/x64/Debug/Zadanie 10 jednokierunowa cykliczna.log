@@ -1,0 +1,5 @@
+﻿  zadanie125.c
+C:\Users\User\Desktop\algsot-main\Zadanie 10 jednokierunowa cykliczna\zadanie125.c(53,11): warning C4047: "inicjowanie": "lista" różni się w poziomach operatorów pośrednich od "lista *"
+C:\Users\User\Desktop\algsot-main\Zadanie 10 jednokierunowa cykliczna\zadanie125.c(79,18): warning C4033: "ZnajdzDanyElement" musi zwracać wartość
+C:\Users\User\Desktop\algsot-main\Zadanie 10 jednokierunowa cykliczna\zadanie125.c(87,1): warning C4715: "ZnajdzDanyElement”: niewszystkie ścieżki kodu zwracają wartość
+  Zadanie 10 jednokierunowa cykliczna.vcxproj -> C:\Users\User\Desktop\algsot-main\Zadanie 10 jednokierunowa cykliczna\x64\Debug\Zadanie 10 jednokierunowa cykliczna.exe
