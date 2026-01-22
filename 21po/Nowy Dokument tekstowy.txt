@@ -1,0 +1,13 @@
+998
+--------------------------------------------------------------------------------
+| Metoda               | Min przes  | Max przes  | Sred przes | Min por    | Max por    | Sred por   |
+--------------------------------------------------------------------------------
+| B╣belkowe            | 24522437   | 25513980   | 24993914   | 49995000   | 49995000   | 49995000   |
+| Wstawianie           | 24542435   | 25533978   | 25013912   | 24532427   | 25523974   | 25003906   |
+| Shell                | 146442     | 200722     | 163935     | 356941248  | 356941248  | 356941248  |
+| QuickSort            | 188685     | 242906     | 205864     | 357120780  | 357164988  | 357135616  |
+--------------------------------------------------------------------------------
+
+C:\Users\User\source\repos\ConsoleApplication4\x64\Debug\ConsoleApplication4.exe (proces 30092) zakończono z kodem 0 (0x0).
+Aby automatycznie zamknąć konsolę po zatrzymaniu debugowania, włącz opcję Narzędzia -> Opcje -> Debugowanie -> Automatycznie zamknij konsolę po zatrzymaniu debugowania.
+Naciśnij dowolny klawisz, aby zamknąć to okno...

@@ -1,0 +1,42 @@
+﻿  mail.cpp
+  zad9.c
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl DNPL(struct el * *,int)" (?DNPL@@YAXPEAPEAUel@@H@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      DNPL
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl DNKL(struct el * *,int)" (?DNKL@@YAXPEAPEAUel@@H@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      DNKL
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl UPEL(struct el * *)" (?UPEL@@YAXPEAPEAUel@@@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      UPEL
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl UOEL(struct el * *)" (?UOEL@@YAXPEAPEAUel@@@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      UOEL
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl DZDEL(struct el * *,int,int)" (?DZDEL@@YAXPEAPEAUel@@HH@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      DZDEL
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl DPDEL(struct el * *,int,int)" (?DPDEL@@YAXPEAPEAUel@@HH@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      DPDEL
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl UZEL(struct el * *,int)" (?UZEL@@YAXPEAPEAUel@@H@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      UZEL
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl printl(struct el *)" (?printl@@YAXPEAUel@@@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      printl
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl printlk(struct el *)" (?printlk@@YAXPEAUel@@@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      printlk
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl ZDP(struct el *,struct _iobuf *)" (?ZDP@@YAXPEAUel@@PEAU_iobuf@@@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      ZDP
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl WZP(struct el * *,struct _iobuf *)" (?WZP@@YAXPEAPEAUel@@PEAU_iobuf@@@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      WZP
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl ZwolnijListe(struct el * *)" (?ZwolnijListe@@YAXPEAPEAUel@@@Z) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      ZwolnijListe
+mail.obj : error LNK2019: nierozpoznany symbol zewnętrzny "void __cdecl WyswietlMenu(void)" (?WyswietlMenu@@YAXXZ) przywołany w funkcji main
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      WyswietlMenu
+K:\Studenci\PK\Prywatne\327938\algsod\Zadanie9-1\Zadanie9-1\x64\Debug\Zadanie9-1.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 13

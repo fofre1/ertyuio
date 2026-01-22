@@ -1,0 +1,4 @@
+﻿  main.cpp
+K:\Studenci\PK\Prywatne\327938\algsod\zadanie6-wartownik\zadanie6-bez-wartownika\main.cpp(11,24): warning C4101: "szukana": lokalna zmienna, do której nie istnieje odwołanie
+  zadanie.c
+  zadanie6-bez-wartownika.vcxproj -> K:\Studenci\PK\Prywatne\327938\algsod\zadanie6-wartownik\zadanie6-bez-wartownika\x64\Debug\zadanie6-bez-wartownika.exe
