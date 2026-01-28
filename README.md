@@ -23,11 +23,12 @@ Strona z zadaniami:
 | 25      | ✅ Zrobione |
 | 3       | ✅ Zrobione |
 | 4       | ✅ Zrobione |
-| 13       | ✅ Zrobione |
+| 7       | ✅ Zrobione |
+| 13      | ✅ Zrobione |
 
 ---
 
 Poprawne wykonanie zadań 1, 2, 5, 6, 9, 10, 12, 14, 16, 21, 22, 25 
 
-Zadania dodatkowe 3, 4, 13
+Zadania dodatkowe 3, 4, 7, 13
 
