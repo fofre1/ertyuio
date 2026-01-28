@@ -32,6 +32,7 @@ void ZDP(lista l, FILE* plik);
 void ZwolnijListe(lista* l);
 void WZP(lista* l, FILE* plik);
 void WyswietlMenu();
+void polacz(lista* p, lista* q);
 
 #ifdef __cplusplus
 }

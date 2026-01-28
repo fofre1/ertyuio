@@ -6,8 +6,10 @@
 
 int main() {
     lista l = (lista)malloc(sizeof(ellisty));
-    l->klucz = INT_MAX;
-    l->nast = 0;
+    lista l1 = (lista)malloc(sizeof(ellisty));
+    lista l2 = (lista)malloc(sizeof(ellisty));
+    l->klucz = l1->klucz=l2->klucz=INT_MAX;
+    l->nast = l1->nast=l2->nast= 0;
     int wybor, liczba, szukana, x;
     FILE* plik;
     while (1) {
@@ -68,6 +70,33 @@ int main() {
                 _getch();
                 break;
             }
+            break;
+        case 8:
+            while (1) {
+                system("cls");
+                printf("Jaka liczbe chcesz dodac? (-1 by zakonczyc): ");
+                scanf("%i", &liczba);
+                if (liczba == -1)
+                    break;
+                DNE(&l1, liczba);
+            }
+            while (1) {
+                system("cls");
+                printf("Jaka liczbe chcesz dodac? (-1 by zakonczyc): ");
+                scanf("%i", &liczba);
+                if (liczba == -1)
+                    break;
+                DNE(&l2, liczba);
+            }
+            system("cls");
+            printf("\n");
+            printl(l1);
+            printf("\n");
+            printl(l2);
+            printf("\n");
+            polacz(&l1, &l2);
+            printl(l1);
+            _getch();
             break;
         case 0:
             ZwolnijListe(&l);

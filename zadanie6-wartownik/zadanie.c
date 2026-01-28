@@ -126,6 +126,43 @@ void WZP(lista* l, FILE* plik) {
     }
 }
 
+void polacz(lista* p, lista* q) {
+
+    if (*p == NULL) {
+        *p = *q;
+        *q = NULL;
+        return;
+    }
+
+    if (*q == NULL)
+        return;
+
+    lista p1 = *p, pp = NULL;
+    lista q1 = *q;
+    lista segmentp = NULL, segmentk = NULL;
+    lista pomocnicza = NULL;
+    while (q1 != NULL) {
+        while (p1 != NULL && p1->klucz < q1->klucz) {
+            pp = p1;
+            p1 = p1->nast;
+        }
+        segmentp = segmentk = q1;
+        while (segmentk->nast != NULL && (p1 == NULL || segmentk->nast->klucz < p1->klucz)) {
+            segmentk = segmentk->nast;
+        }
+        pomocnicza = segmentk->nast;
+        segmentk->nast = p1;
+        if (pp != NULL)
+            pp->nast = segmentp;
+        else
+            *p = segmentp;
+        pp = segmentk;
+        q1 = pomocnicza;
+    }
+    *q = NULL;
+}
+
+
 void WyswietlMenu() {
     system("cls");
     printf("Wybierz jaka operacje chcesz wykonac na liscie:\n");
@@ -136,6 +173,7 @@ void WyswietlMenu() {
     printf("5 - wczytaj zawartosc listy z pliku\n");                //DONE
     printf("6 - zapisz zawartosc listy do pliku\n");                //DONE
     printf("7 - wyswietl zawartosc listy\n");                      //DONE
+    printf("8 - polacz dwie w jedna\n");                      //DONE
     printf("0 - zakoncz dzialanie programu\n");                     //DONE    
     printf("Nastepna operacja: ");
 }
