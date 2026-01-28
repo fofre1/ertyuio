@@ -1,4 +1,4 @@
 ﻿  ConsoleApplication4.cpp
-C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4.cpp(102,1): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej : p
-C:\Users\User\source\repos\ConsoleApplication4\ConsoleApplication4.cpp(120,1): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej : p
-  ConsoleApplication4.vcxproj -> C:\Users\User\source\repos\ConsoleApplication4\x64\Debug\ConsoleApplication4.exe
+C:\Users\User\Desktop\Zadanie 14\ConsoleApplication4.cpp(119,1): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej : p
+C:\Users\User\Desktop\Zadanie 14\ConsoleApplication4.cpp(101,1): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej : p
+  ConsoleApplication4.vcxproj -> C:\Users\User\Desktop\Zadanie 14\x64\Debug\ConsoleApplication4.exe

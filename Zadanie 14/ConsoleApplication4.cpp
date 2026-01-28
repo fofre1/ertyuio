@@ -155,10 +155,21 @@ void UZD(drzewo* d, const char* klucz) {
 	}
 }
 
+void zapisDrzewa(drzewo d, FILE* plik) {
+	if (d == NULL) {
+		fprintf(plik, "#\n");
+		return;
+	}
+	fprintf(plik, "%s\n", d->tablica);
+	zapisDrzewa(d->lewy, plik);
+	zapisDrzewa(d->prawy, plik);
+}
+
 
 int main() {
 	drzewo root = NULL;
-
+	FILE *plik;
+	plik =fopen("zapis.txt", "w");
 	DDD(&root, "sliwka", NULL);
 	DDD(&root, "jablko", NULL);
 	DDD(&root, "gruszka", NULL);
@@ -193,6 +204,9 @@ int main() {
 	printd(*ZNastepnikaD(&(*p)), 0);
 	printf("Nacisnij dowolny klawisz, aby kontynuowac\n");
 	_getch();
+	zapisDrzewa(root, plik);
+	fclose(plik);
+
 
 
 }
